@@ -1,0 +1,239 @@
+header {
+  background-color: #222;
+  padding: 20px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h1 {
+  pointer-events: stroke;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+section {
+  text-align: left;
+}
+
+#about {
+  background-image: url("one-piece-roronoa-zoro.jpg"),
+    url("one-piece-roronoa-zoro.jpg");
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#about h1 {
+  color: greenyellow;
+}
+
+#about p {
+  text-align: center;
+  color: greenyellow;
+}
+
+#about li {
+  text-align: center;
+  color: greenyellow;
+  padding: 5px;
+}
+
+gallery {
+  background-color: greenyellow;
+}
+
+#gallery .image-grid {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/189/887/811/one-piece-roronoa-zoro-hd-wallpaper-preview.jpg);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#gallery .image-grid img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  max-width: 100%;
+  height: auto;
+}
+
+#gallery .image-grid img:hover {
+  transform: scale(1.05);
+}
+
+#edu .p {
+  text-align: left;
+}
+
+#edu {
+  background-color: #fff;
+}
+
+.edu-list {
+  margin-left: 0;
+  padding-left: 40px;
+  list-style: disc;
+  margin-left: 30px;
+}
+
+.edu-list li {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.edu-list li:before {
+  content: "\2022";
+  position: absolute;
+  left: -25px;
+  color: #ff9900;
+}
+
+#skills {
+  background-color: #f0f0f0;
+}
+
+.skills-list {
+  margin-left: 0;
+  padding-left: 40px;
+  list-style: disc;
+  margin-left: 30px;
+}
+
+.skills-list li {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skills-list li:before {
+  content: "\2022";
+  position: absolute;
+  left: -25px;
+  color: #ff9900;
+}
+
+#achievements {
+  background-color: #fff;
+}
+
+.achievement-list {
+  margin-left: 0;
+  padding-left: 40px;
+  list-style: disc;
+  margin-left: 30px;
+}
+
+.achievement-list li {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.achievement-list li:before {
+  content: "\2022";
+  position: absolute;
+  left: -25px;
+  color: #ff9900;
+}
+
+#quotes {
+  background-color: #f0f0f0;
+}
+
+.quotes-list li {
+  font-weight: 700;
+}
+
+.quotes-list {
+  margin-left: 0;
+  padding-left: 40px;
+  list-style: disc;
+  margin-left: 30px;
+}
+
+.quotes-list li {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.quotes-list li:before {
+  content: "\2022";
+  position: absolute;
+  left: -25px;
+  color: #ff9900;
+}
+
+#contact {
+  text-align: center;
+  background-color: black;
+}
+
+#contact h1 {
+  font-size: 34px;
+}
+
+#contact p {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    margin: 0 10px;
+  }
+}
